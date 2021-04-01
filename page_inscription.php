@@ -7,20 +7,10 @@
 	<!-- fichier 3 / -->
 </head>
 <body>
-	<header>
-		<div class="container">
-			<a href="index.php"><img src="logo2.png" alt="logo" class="logo"></a>
-			<nav>
-				<ul>
-					<li><a href="#">Rechercher</a></li>
-					<li><a href="#">Organiser</a></li>
-					<li><a href="#">Consulter Carte Geographique</a></li>
-					<li><a href="#">Consulter Calendrier</a></li>
-					<li><a href="#">Nous Contacter</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+		<?php
+		$page="page_inscription";
+		require ('header.php');
+		?> 
 	<div class="div-droite">
 		<p>Bienvenue sur la page d'inscription:</p>
 		<form action="refresh.php" method="post" autocomplete="off">
@@ -68,7 +58,9 @@
 
 		</form>
 	</div>
-
+	<?php 
+		require ('footer.php');
+	?> 
 
 </body>
 </html>
