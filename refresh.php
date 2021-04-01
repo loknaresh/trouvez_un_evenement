@@ -32,7 +32,8 @@
 			
         else {  
             enregistrer($_POST['nom'], $_POST['prenom'],  $_POST['date'],$_POST['tel'], $_POST['adr'], $_POST['mail'], $_POST['mdp1']);
-			echo '<meta http-equiv="Refresh" content="2; index.php"/>';
+			
+            echo '<meta http-equiv="Refresh" content="0; connexion.php"/>';
 
         }
 
