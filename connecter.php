@@ -30,7 +30,7 @@ else{
        // echo $_SESSION["utilisateur"]["nom"];
        // var_dump($_SESSION);
         // exit();
-        echo '<meta http-equiv="Refresh" content="3;url=index.php">';
+        echo '<meta http-equiv="Refresh" content="0;url=index.php">';
     }
     else {
         echo '<meta http-equiv="Refresh" content="0;url=connexion.php">';
