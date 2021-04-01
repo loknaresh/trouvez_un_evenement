@@ -3,47 +3,57 @@ body {
 	background: #222;
 	font-family: sans-serif;
 	font-weight: 300;
+	
 }
 
 .container{
-	width: 80%;
-	margin: 0 auto;
+	width: 70%;
+	margin: 0 auto;	
+	
 }
 
 header {
+	border:2px solid red;
 	background: #55d6aa;
+	padding-bottom: 30px;
+	margin-bottom: 70px;	
 }
 
 header::after {
 	content: '';
 	display: table;
 	clear: both;
+	
 }
 
 .logo {
 	float: left;
 }
+.logo1 {
+	margin-top: 7px;
+	float: right;
+}
 
 nav {
-	float: right;
+	float: left;
 }
 
 nav ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	margin-top: 70px;
 }
 
 nav li {
 	display: inline-block;
 	margin-left: 70px;
-	padding-top: 35px;
-
+	padding-top: 15px;
 	position: relative;
 }
 
 nav a {
-	color: #444;
+	color: red;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -75,16 +85,92 @@ nav a:hover::before {
 }
 
 .div-gauche {
+	border:2px solid red;
 	background: #55d6aa;
 	width: 500px;
 	margin: 10px;
 	padding: 5px;
 
 }
+.div-gauche>p>input{
+	padding-left: 25px;
+	margin-left: 50px;
+	border:2px solid red;
+}
 
 .div-droite {
+	border:2px solid red;
 	background: #55d6aa;
 	flex-grow: 1;
 	margin:10px;
 	padding: 10px;
 }
+
+.milieu {
+	background: #55d6aa;
+	flex-grow: 1;
+	margin:10px;
+	padding: 10px;
+}
+
+.welcom {
+	background: #55d6aa;
+	width: 500px;
+	margin: 10px;
+	padding: 9px;
+
+}
+
+.footer-dark {
+  display: flex;
+  margin-top: 20px;
+  //flex-shrink: 0;
+  border-top:2px solid red;
+  width: 100%;
+  padding:70px 0;
+  color:#f0f9ff;
+  background-color:#55d6aa;
+ 
+ 
+}
+footer{
+	width: 1200px;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 20px;
+	
+}
+.bloc{
+	width: 20%;
+	margin:0 25px;
+}
+.footer-dark h3 {
+  font-weight: bold;
+  color: black;
+  margin:0px 0px 5px 0px;
+  font-weight:bold;
+  font-size:17px;
+  font-style: italic;
+
+}
+
+.footer-dark ul {
+	
+ padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+  
+
+}
+
+.footer-dark ul a {
+  color:red;
+  text-decoration:none;
+  //opacity:0.6;
+}
+
+
