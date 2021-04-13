@@ -13,6 +13,7 @@ if(!isset($page))
         <a href="index.php"><img src="logo2.png" alt="logo" class="logo"></a>
         <a href="index.php"><img src="logo1.png" alt="logo" class="logo1"></a>
         <nav>
+        <h1 class="aceuil"> Trouvez votre événement</h1>
             <ul>
                 <?php
                     
@@ -54,8 +55,11 @@ if(!isset($page))
                     {
                         echo '<li><a href="index.php">Recherche</a></li>';
                     }
+                    if($page!="geolocalisation")
+                    {
+                        echo ' <li><a href="geolocalisation.php">Consulter la carte geographique</a></li>';
+                    }
                 ?>
-                <li><a href="#">Consulter la carte geographique</a></li>
                 <li><a href="#">Consulter le calendrier</a></li>
                 
             </ul>

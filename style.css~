@@ -7,24 +7,16 @@ body {
 }
 
 .container{
-	width:90%;
+	width: 70%;
 	margin: 0 auto;	
 	
 }
-.aceuil{
-	  
-	   text-align: center;
-	   margin-top: 0px;
-	   font-style: italic;
-    margin-bottom: 100px;
-    margin-top: 20px;
-	   
-}
+
 header {
 	border:2px solid red;
 	background: #55d6aa;
 	padding-bottom: 30px;
-	margin-bottom: 60px;	
+	margin-bottom: 70px;	
 }
 
 header::after {
@@ -50,12 +42,12 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	margin-top: 60px;
+	margin-top: 70px;
 }
 
 nav li {
 	display: inline-block;
-	margin-left: 60px;
+	margin-left: 70px;
 	padding-top: 15px;
 	position: relative;
 }
@@ -93,16 +85,13 @@ nav a:hover::before {
 }
 
 .div-gauche {
-	display: flex;
 	border:2px solid red;
 	background: #55d6aa;
-	width: 1300px;
-	margin: 20px;
-	padding: 15px;
-	margin-left:25px;
+	width: 500px;
+	margin: 10px;
+	padding: 5px;
 
 }
-
 .div-gauche>p>input{
 	padding-left: 25px;
 	margin-left: 50px;
@@ -138,10 +127,10 @@ nav a:hover::before {
   //flex-shrink: 0;
   border-top:2px solid red;
   width: 100%;
-  padding:20px 0;
+  padding:70px 0;
   color:#f0f9ff;
   background-color:#55d6aa;
- 
+  margin-bottom: 0px;
  
 }
 footer{
@@ -184,40 +173,4 @@ footer{
   //opacity:0.6;
 }
 
-
-button, input[type="submit"],input[type="reset"]  {
-	cursor: pointer;
-	color: #fff;
-	display: inline-block;
-	font-weight: 400;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	border: 1px solid transparent;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-	padding: .375rem .75rem;
-	font-size: 1rem;
-	line-height: 1.5;
-	border-radius: .25rem;
-	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.btn-primary
-{
-	border-color: #007bff;
-	background-color: #007bff;
-}
-
-.btn-secondary
-{
-	background-color: #6c757d;
-	border-color: #6c757d;
-}
 

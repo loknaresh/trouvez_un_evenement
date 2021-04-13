@@ -4,25 +4,40 @@
     <HEAD>
         <TITLE>connexion</TITLE>
         <link rel="stylesheet" type="text/css" href="style.css"/>
+          <!-- fichier 6 / -->
         <style>
             .div-droite
             {
-	            width: 50%;
+	            width: 15%;
                 border:2px solid red;
                 background: #55d6aa;
-                margin: 60px auto 30px auto;
-                //flex-grow: 1;
+                margin: 0px auto 0px auto;
                 padding: 40px;
-                margin-bootom:30px;
-
             }
-            form
+            input
             {
-                margin-top: 10%;
-                margin-left:30%;
+                border:1px solid red;
+                padding-left:15%;
+              
             }
+            .ch
+            {
+                margin-left:15%;
+                font-size:12px;
+            }
+            .c{
+                margin-left:5%;
+                font-weight:bold;
+                padding-left:20%;
+                padding-right:10%;
+            }
+            .champ{
+                margin-left:15%;
+                font-weight:bold;
+            }
+           
         </style>
-     <!-- fichier 6 / -->
+    
     </HEAD>
     <body>
         <?php
@@ -30,13 +45,14 @@
 		 require ('header.php');
 		?> 
         <div class="div-droite"> 
-            <a href="index.php"><img src="logo2.png" alt="logo" class="logo"></a>
-            <a href="index.php"><img src="logo1.png" alt="logo" class="logo1"></a>
-        
             <form action="connecter.php" method="POST" autocomplete="off">
-            <p>Adresse email :  <input type="email" name="mail" value=""/></p>
-            <p>Mot de passe :  <input required type="password" name="mot_de_passe" value=""/></p>
-            <p><input type="submit" value="Valider"></p>
+                <p class="champ">Adresse e-mail * </p>
+                <p>  <input type="email" placeholder="soprano@gmail.com" name="mail" value=""/></p>
+                <p class="champ">Mot de passe *</p>  
+                <input required type="password" placeholder="droumbaba&20749" name="mot_de_passe" value=""/></p>
+                <p class="c"><input type="submit" value="Valider"></p>
+                <p class="ch">Mot de passe oublié?</p>
+                <p class="champ">* Champs requis</p>
             </form>  
         </div>
         <?php

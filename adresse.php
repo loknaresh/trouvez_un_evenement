@@ -1,9 +1,18 @@
-<body> 
+ 
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ajout de l'adresse </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Mon premier fichier () / -->
+	</head>
+    <body> 
         <?php
-        //$page="nouveau_even";
-        
-		require ('header.php');
-		?> 
+            //$page="nouveau_even";
+            $page="adresse";
+            require ('header.php');
+        ?> 
         <form action="enregistrement_adresse.php" method="post" autocomplete="off">
             <div class="div-gauche">         
             
@@ -69,8 +78,8 @@
             </div>
         </form>
         <?php 
-		require ('footer.php');
-		?> 
+            require ('footer.php');
+        ?> 
     </body>
 </html>
 
