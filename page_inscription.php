@@ -54,7 +54,7 @@
 				<input type="password" name="mdp2" value=""/>
 			</p>
 
-			<input type="submit" name="envoyer" value="Envoyer"/>
+			<input type="submit" class="btn-primary" name="envoyer" value="Envoyer"/>
 
 		</form>
 	</div>

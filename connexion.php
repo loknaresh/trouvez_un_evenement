@@ -50,7 +50,7 @@
                 <p>  <input type="email" placeholder="soprano@gmail.com" name="mail" value=""/></p>
                 <p class="champ">Mot de passe *</p>  
                 <input required type="password" placeholder="droumbaba&20749" name="mot_de_passe" value=""/></p>
-                <p class="c"><input type="submit" value="Valider"></p>
+                <p class="c"><input class="btn-primary"  type="submit" value="Valider"></p>
                 <p class="ch">Mot de passe oublié?</p>
                 <p class="champ">* Champs requis</p>
             </form>  
