@@ -11,15 +11,7 @@ body {
 	margin: 0 auto;	
 	
 }
-.aceuil{
-	  
-	   text-align: center;
-	   margin-top: 0px;
-	   font-style: italic;
-    margin-bottom: 100px;
-    margin-top: 20px;
-	   
-}
+
 header {
 	border:2px solid red;
 	background: #55d6aa;
@@ -102,7 +94,15 @@ nav a:hover::before {
 	margin-left:25px;
 
 }
-
+.recherche
+{
+	display: flex;	
+	padding-left: 40%;
+}
+.recherche>p
+{
+	margin:5px;
+}
 .div-gauche>p>input{
 	padding-left: 25px;
 	margin-left: 50px;
@@ -135,7 +135,7 @@ nav a:hover::before {
 .footer-dark {
   display: flex;
   margin-top: 20px;
-  /*flex-shrink: 0;*/
+  //flex-shrink: 0;
   border-top:2px solid red;
   width: 100%;
   padding:20px 0;
@@ -181,43 +181,7 @@ footer{
 .footer-dark ul a {
   color:red;
   text-decoration:none;
-  /*opacity:0.6;*/
+  //opacity:0.6;
 }
 
-
-button, input[type="submit"],input[type="reset"]  {
-	cursor: pointer;
-	color: #fff;
-	display: inline-block;
-	font-weight: 400;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	border: 1px solid transparent;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-	padding: .375rem .75rem;
-	font-size: 1rem;
-	line-height: 1.5;
-	border-radius: .25rem;
-	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.btn-primary
-{
-	border-color: #007bff;
-	background-color: #007bff;
-}
-
-.btn-secondary
-{
-	background-color: #6c757d;
-	border-color: #6c757d;
-}
 
